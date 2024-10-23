@@ -1,6 +1,7 @@
 1) telnet 192.168.1.1
 2) exec sh
 3) mkdir /opt/packages/ && cd /opt/packages && curl -sOfL https://github.com/qzeleza/kvas/releases/download/v1.1.8/kvas_1.1.8-release_2_all.ipk && opkg install /opt/packages/kvas_1.1.8-release_2_all.ipk
+4) cd /tmp && curl -O https://raw.githubusercontent.com/maikldolg/test/refs/heads/main/part1.lst && kvas import part1.lst
 
 {
 kvas setup         - запускаем первоначальную настройку пакета
