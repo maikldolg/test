@@ -4,7 +4,7 @@
 2) exec sh
 3) opkg install curl
 4) mkdir /opt/packages/ && cd /opt/packages && curl -sOfL https://github.com/qzeleza/kvas/releases/download/v1.1.8/kvas_1.1.8-release_2_all.ipk && opkg install /opt/packages/kvas_1.1.8-release_2_all.ipk
-5) cd /tmp && curl -O https://raw.githubusercontent.com/maikldolg/test/refs/heads/main/part1.lst && kvas import part1.lst
+5) cd /tmp && curl -O https://raw.githubusercontent.com/maikldolg/test/refs/heads/main/kvas.lst && kvas import kvas.lst
 
 Commands List:
 
