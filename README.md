@@ -21,6 +21,11 @@ Commands List:
 8) kvas purge         - удаляем все доменные имена из списка разблокировки.
 9) kvas uninstall full   - производим ПОЛНОЕ удаление пакета со всеми архивными копиями.
 
+Extra for kvas+vless:
+1) /opt/etc/init.d/S24xray restart
+2) nano /opt/etc/xray/kvas.json
+3) kvas vpn set
+
 Manuals:
 
 1) https://itdog.info/tochechnoe-napravlenie-opredelyonnyh-podsetej-ip-adresov-i-domenov-na-keenetic/#использование
