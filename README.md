@@ -7,7 +7,7 @@
 
 (if there are some problems, try mkdir /opt/tmp/ && cd /opt/tmp/ ...)
 
-5) cd /tmp && curl -O https://raw.githubusercontent.com/maikldolg/test/refs/heads/main/kvas.lst && kvas import kvas.lst
+5) cd /tmp && curl -O https://github.com/maikldolg/test/blob/main/kvas_routing/kvas.lst && kvas import kvas.lst
 
 Commands List:
 
