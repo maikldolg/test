@@ -1,6 +1,6 @@
 -------------------------------------------------------- Kvas + AmneziaWG setup: --------------------------------------------------------
 
-1) telnet 192.168.1.1
+1) telnet 192.168.1.1/ssh admin@192.168.1.1
 2) exec sh
 3) opkg install curl
 4) mkdir /opt/packages/ && cd /opt/packages && curl -sOfL https://github.com/qzeleza/kvas/releases/download/v1.1.8/kvas_1.1.8-release_2_all.ipk && opkg install /opt/packages/kvas_1.1.8-release_2_all.ipk
@@ -31,10 +31,6 @@ Manuals:
 1) https://itdog.info/tochechnoe-napravlenie-opredelyonnyh-podsetej-ip-adresov-i-domenov-na-keenetic/#использование
 2) https://github.com/Corvus-Malus/XKeen
 
-Utilities:
-
-1) https://iplist.opencck.org/ (domain\ipv4)
-
 -------------------------------------------------------- XKeen + X-ray setup: --------------------------------------------------------
 
 1) Entware for USB: https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель
@@ -45,6 +41,7 @@ Utilities:
 Manuals:
 1) https://github.com/MHSanaei/3x-ui
 2) https://github.com/Skrill0/XKeen
+3) https://www.vdsina.com/ru/qa/q/kak-ispolzovat-server-s-predustanovlennym-3x-ui
 
 Commands List:
 1) xkeen -status: Проверка работы
@@ -57,5 +54,11 @@ Commands List:
    
 P.S.:
 1) 53854 port for some reason instead of 443
-2) sniffing enabled
-   
+
+-------------------------------------------------------- Some useful manuals: ----------------------------------------------------------
+
+1) https://telegra.ph/Sozdaem-gostevoj-WireGuard-segment-na-Keenetic-s-dostupom-k-internetu-cherez-router-01-29
+2) https://core.telegram.org/resources/cidr.txt
+3) https://anyipa.me
+4) https://iplist.opencck.org/ (domain\ipv4)
+5) iperf3 -c ping.online.net -p 5205 -P 20
