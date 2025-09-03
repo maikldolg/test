@@ -28,6 +28,7 @@
 a.nel.cloudflare.com
 abs-0.twimg.com
 abs.twimg.com
+accounts.youtube.com
 adguard-dns.com
 ads-twitter.com
 amazonaws.com
@@ -184,10 +185,12 @@ gamma.kinde.com
 gcore-vid.xvideos-cdn.com
 gelbooru.com
 gemini.google.com
+ggpht.com
 globaldp-prod-os01.starrails.com
 google.com
 googleapis.com
 googletagmanager.com
+googleusercontent.com
 googlevideo.com
 graph.org
 gstatic.com
@@ -195,6 +198,7 @@ habr.com
 hentailib.me
 hqporner.com
 i.ytimg.com
+i9.ytimg.com
 ic-vt-nss.xhcdn.com
 ig.me
 ign.com
@@ -216,6 +220,7 @@ meduza.io
 meta.com
 ndsc.b-cdn.net
 neolurk.org
+nhacmp3youtube.com
 nhentai.net
 nnmclub.to
 ntc.party
@@ -343,9 +348,14 @@ xvideos-cdn.com
 xvideos.com
 youtu.be
 youtube-nocookie.com
+youtube-ui.l.google.com
 youtube.com
+youtube.googleapis.com
+youtube.ru
+youtubei.googleapis.com
 yt3.ggpht.com
 yt3.googleusercontent.com
+yt4.ggpht.com
 ytimg.com
 ytimg.l.google.com
 yting.com
